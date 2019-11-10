@@ -7,4 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public interface FeignService {
     @GetMapping("buy")
     public String buy();
+
+    @GetMapping("buy1")
+    public String buy1();
 }

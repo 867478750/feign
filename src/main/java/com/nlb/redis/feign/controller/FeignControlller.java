@@ -17,4 +17,9 @@ public class FeignControlller {
         feignService.buy();
     }
 
+    @GetMapping("redislock2")
+    public void redisLock2(){
+        feignService.buy1();
+    }
+
 }
